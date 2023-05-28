@@ -30,7 +30,7 @@ jobs:
             az storage blob upload-batch --account-name resume23sa --auth-mode key --destination '$web' --source . --overwrite
     
     - name: Copy function code files
-      uses: Azure/cli@1
+      uses: Azure/cli@v1
       with:
         inlineScript: |
           az storage file upload --account-name resume23sa --share-name AzureResume-func --source ./backend/run.ps1 --path "site/wwwroot/VisitorCounter"
