@@ -30,14 +30,14 @@ jobs:
             az storage blob upload-batch --account-name resume23sa --destination '$web' --source . --overwrite
     
     ##- name: Copy function code files
-    ##  uses: Azure/cli@2
+    ##  uses: Azure/cli@2.49.0
     ##  with:
     ##    inlineScript: |
     ##      az storage file upload --account-name resume23sa --share-name func-jbtresume-prod-001 --source ./backend/VisitorCounter/run.ps1 --path "site/wwwroot/VisitorCounter"
     ##      az storage file upload --account-name resume23sa --share-name func-jbtresume-prod-001 --source ./backend/VisitorCounter/function.json --path "site/wwwroot/VisitorCounter"
     
     - name: Purge CDN endpoint
-      uses: Azure/cli@v2
+      uses: Azure/cli@v2.49.0
       with:
         inlineScript: |
            az cdn endpoint purge --content-paths  "/*" --profile-name "azureresume-cdnp" --name "cdne-salman-cv-uk" --resource-group "resume-cli-rg" --no-wait
