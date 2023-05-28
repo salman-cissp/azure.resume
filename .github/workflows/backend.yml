@@ -6,8 +6,6 @@ on:
     paths:
     - 'backend/**'
 
-  
-
 env:
   AZURE_FUNCTIONAPP_NAME: AzureResume-func   # set this to your function app name on Azure
   AZURE_FUNCTIONAPP_PACKAGE_PATH: 'backend'       # set this to the path to your function app project, defaults to the repository root
@@ -19,6 +17,10 @@ jobs:
     steps:
     - name: 'Checkout GitHub Action'
       uses: actions/checkout@v3
+    - name: 'Az CLI Login'
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
 
     - name: 'Run Azure Functions Action'
       uses: Azure/functions-action@v1
