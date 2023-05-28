@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "WEBSITE_RUN_FROM_PACKAGE": "1",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=resume23sa;AccountKey=An75paDyj6uYPz8Xt1Io0N2KxCkV6VUHqOH66ATkOUKK4fpyuZ5A2LpNnycYO7VEt0ZExJFeKP44+AStcBIICA==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "azureresume-func047513",
+    "FUNCTIONS_WORKER_RUNTIME": "powershell",
+    "WEBSITE_SITE_NAME": "AzureResume-func",
+    "CosmosDbConnectionString": "AccountEndpoint=https://azureresume-sa.documents.azure.com:443/;AccountKey=xAA3OqPhvm0DeBJAx56S1A4RlknmpI3TUXDAqbG36uAaP9dEe1UpijUEhLhiHDyPp38oupwIcgz9ACDbHBThJQ==",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=resume23sa;AccountKey=An75paDyj6uYPz8Xt1Io0N2KxCkV6VUHqOH66ATkOUKK4fpyuZ5A2LpNnycYO7VEt0ZExJFeKP44+AStcBIICA==;EndpointSuffix=core.windows.net"
+  }
+}
