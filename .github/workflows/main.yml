@@ -27,7 +27,7 @@ jobs:
       uses: Azure/cli@v1
       with:
         inlineScript: |
-            az storage blob upload-batch --account-name resume23sa --destination '$web' --source . --overwrite
+            az storage blob upload-batch --account-name resume23sa --auth-mode key --destination '$web' --source . --overwrite
     
     ##- name: Copy function code files
     ##  uses: Azure/cli@1
