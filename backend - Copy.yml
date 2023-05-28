@@ -11,7 +11,7 @@ env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: 'backend'       # set this to the path to your function app project, defaults to the repository root
 
 jobs:
-  build-and-test:
+  build-and-deploy:
     runs-on: ubuntu-latest
     environment: dev
     steps:
@@ -21,11 +21,6 @@ jobs:
       uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
-
-    - name: 'Run Unit Tests'
-      run: |
-        cd backend/test
-        pwsh -File ./backend.test.ps1
 
     - name: 'Run Azure Functions Action'
       uses: Azure/functions-action@v1
