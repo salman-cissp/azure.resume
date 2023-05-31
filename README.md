@@ -36,6 +36,12 @@
 <br><br>
 ![image](https://github.com/salman-cissp/azure.resume/assets/134168108/e3c89d94-0311-46a3-9962-c2e27def1047)
 
+# Exporting the infrastructure 
+Export the entire infrastructure using aztfexport tool. It creates terraform files which could be used in the future to redeploy
+
+![image](https://github.com/salman-cissp/azure.resume/assets/134168108/867ad099-55d6-4868-b93a-6394564aed4b)
+
+
 ### Resources
 
  - #### Front-end (static site with HTML, CSS, and JavaScript. The visitor counter data is via an Azure Function API call)
