@@ -45,10 +45,6 @@
 Export the entire infrastructure using aztfexport tool. It creates terraform files which could be used in the future to redeploy
 
 ![image](https://github.com/salman-cissp/azure.resume/assets/134168108/867ad099-55d6-4868-b93a-6394564aed4b)
-![241811738-e3c89d94-0311-46a3-9962-c2e27def1047](https://github.com/salman-cissp/azure.resume/assets/134168108/cdec1f78-d2d6-4bfb-9141-8d31ffb5493e)
-![241811738-e3c89d94-0311-46a3-9962-c2e27def1047](https://github.com/salman-cissp/azure.resume/assets/134168108/1cde2f93-823e-4367-a05a-b914278cc75e)
-![241811738-e3c89d94-0311-46a3-9962-c2e27def1047](https://github.com/salman-cissp/azure.resume/assets/134168108/632e7ae9-0388-4702-80a6-84b397c1dec7)
-![241811738-e3c89d94-0311-46a3-9962-c2e27def1047](https://github.com/salman-cissp/azure.resume/assets/134168108/67609419-fdcd-4012-a8e7-16a125af005f)
 
 
 ### Resources
